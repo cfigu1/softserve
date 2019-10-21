@@ -1,19 +1,15 @@
 {
-  "name": "olx",
+  "name": "ryanair",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http": "0.0.0",
     "puppeteer": "^1.20.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.3"
   }
 }
